@@ -619,7 +619,7 @@ img {
 
 .polaroid--one { left: 0; }
 .polaroid--two { left: 13%; top: 300px; }
-.polaroid--three { right: 0; top: 650px; }
+.polaroid--three { right: 0; top: 700px; }
 
 .photo-placeholder {
   display: grid !important;
