@@ -593,10 +593,10 @@ img {
 }
 
 .collage-grid {
-  position: relative;
-  width: min(1100px, 100%);
-  min-height: 650px;
-  margin: 70px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 30px;
+  align-items: start;
 }
 
 .polaroid {
@@ -618,7 +618,7 @@ img {
 }
 
 .polaroid--one { left: 4%; top: 35px; transform: rotate(-4deg); }
-.polaroid--two { left: 36%; top: 150px; transform: rotate(3deg); z-index: 2; }
+.polaroid--two { grid-column: 1 / -1; justify-self: center; width: 70%;}
 .polaroid--three { right: 4%; top: 15px; transform: rotate(-2deg); }
 
 .photo-placeholder {
@@ -1456,4 +1456,28 @@ img {
 
 .timeline-section h2 {
     text-transform: none !important;
+}
+
+@media (max-width: 600px) {
+  .collage-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .polaroid {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .polaroid--two {
+    width: 75%;
+    margin: 10px auto 20px;
+    transform: none;
+  }
+
+  .polaroid--three {
+    margin-top: 10px;
+  }
 }
