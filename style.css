@@ -617,9 +617,9 @@ img {
   font: 500 1.05rem var(--serif);
 }
 
-.polaroid--one { left: 4%; top: 35px; transform: rotate(-4deg); }
-.polaroid--two { left: 36%; top: 150px; transform: rotate(3deg); z-index: 2; }
-.polaroid--three { right: 4%; top: 15px; transform: rotate(-2deg); }
+.polaroid--one { left: 0; }
+.polaroid--two { left: 13%; top: 300px; }
+.polaroid--three { right: 0; top: 650px; }
 
 .photo-placeholder {
   display: grid !important;
