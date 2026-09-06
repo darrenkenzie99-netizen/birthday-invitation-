@@ -1457,27 +1457,3 @@ img {
 .timeline-section h2 {
     text-transform: none !important;
 }
-
-@media (max-width: 600px) {
-  .collage-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
-  }
-
-  .polaroid {
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .polaroid--two {
-    width: 75%;
-    margin: 10px auto 20px;
-    transform: none;
-  }
-
-  .polaroid--three {
-    margin-top: 10px;
-  }
-}
