@@ -621,13 +621,12 @@ img {
 .polaroid--two { 
   left: 13%; 
   top: 300px; 
-  z-index: 3;
 }
 
 .polaroid--three { 
   right: 0; 
-  top: 760px; 
-  z-index: 1;
+  top: 850px; 
+}
 }
 .photo-placeholder {
   display: grid !important;
