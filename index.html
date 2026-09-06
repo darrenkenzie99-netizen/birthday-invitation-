@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Special Chapter — undangan ulang tahun Safira Feronika Putri.">
+  <title>A Special Chapter — Safira Feronika Putri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Opening screen -->
+  <div class="opening" id="opening">
+    <div class="opening__ornament ornament ornament--top">✦</div>
+    <div class="opening__content">
+      <p class="eyebrow">A SPECIAL INVITATION</p>
+      <p class="opening__intro">You are invited to celebrate</p>
+
+      <div class="envelope-wrap" id="envelopeWrap">
+        <div class="envelope" aria-hidden="true">
+          <div class="envelope__back"></div>
+          <div class="envelope__paper">
+            <span>𝓢</span>
+          </div>
+          <div class="envelope__flap"></div>
+          <div class="envelope__front"></div>
+          <div class="envelope__seal">𝓢</div>
+        </div>
+      </div>
+
+      <h1>Safira Feronika Putri</h1>
+      <button class="btn btn--cream" id="openInvitation" type="button">
+        Open Invitation
+      </button>
+      <p class="opening__hint">A new chapter is waiting.</p>
+    </div>
+    <div class="opening__ornament ornament ornament--bottom">✦</div>
+  </div>
+
+  <main id="mainContent" class="site hidden">
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+      <a class="brand" href="#home" aria-label="Kembali ke beranda">𝓢</a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#story">Story</a>
+        <a href="#details">Details</a>
+        <a href="#Love">Love</a>
+      </nav>
+      <button class="music-toggle" id="musicToggle" type="button" aria-label="Nyalakan musik" aria-pressed="false">♫</button>
+    </header>
+
+    <!-- Replace the audio file in assets/audio when ready -->
+    <audio id="birthdayMusic" loop preload="none">
+  <source src="assets/audio/audio.mp4" type="audio/mp4">
+</audio>
+
+    <!-- Hero -->
+    <section class="hero section-light" id="home">
+      <div class="hero__year" aria-hidden="true">2026</div>
+      <div class="hero__content">
+        <div class="hero__date reveal">
+          <span>11</span>
+          <span>SEPTEMBER</span>
+          <span>2026</span> 
+        </div>
+
+        <p class="eyebrow reveal">A SPECIAL CHAPTER</p>
+
+        <div class="hero__photo reveal-scale">
+          <div class="photo-frame">
+            <img src="assets/images/Photo1.jpeg" alt="Foto Safira" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')">
+            <span class="placeholder-label">YOUR PHOTO</span>
+          </div>
+        </div>
+
+        <div class="hero__copy reveal">
+          <h1>Safira Feronika Putri</h1>
+          <p>Another year. Another story.</p>
+        </div>
+      </div>
+      <div class="scroll-note">Scroll to discover <span>↓</span></div>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro section-dark" id="story">
+      <div class="section-number">01 / 06</div>
+      <div class="intro__content reveal">
+        <p class="eyebrow">THE BEGINNING</p>
+        <h2>Seventeen,<br><em>a new chapter begins.</em></h2>
+        <p>A celebration of memories, moments, and the people who make every chapter worth remembering.</p>
+      </div>
+      <div class="line-decor" aria-hidden="true"></div>
+    </section>
+
+    <!-- Photo collage -->
+    <section class="collage section-light">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / MEMORIES</p>
+        <h2>Little moments,<br><em>kept forever.</em></h2>
+      </div>
+
+      <div class="collage-grid">
+        <figure class="polaroid polaroid--one reveal">
+          <div class="photo-box">
+            <img src="assets/images/moments1.jpeg" alt="Memory 01" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')">
+            <span class="placeholder-label">PHOTO 01</span>
+          </div>
+          <figcaption>From tiny me to seventeen-year-old me. 🤍</figcaption>
+        </figure>
+
+        <figure class="polaroid polaroid--two reveal">
+          <div class="photo-box">
+            <img src="assets/images/moments2.jpeg" alt="Memory 02" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')">
+            <span class="placeholder-label">PHOTO 02</span>
+          </div>
+          <figcaption>She had no idea she’d grow up this fast.</figcaption>
+        </figure>
+
+        <figure class="polaroid polaroid--three reveal">
+          <div class="photo-box">
+            <img src="assets/images/moments3.jpeg" alt="Memory 03" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder')">
+            <span class="placeholder-label">PHOTO 03</span>
+          </div>
+          <figcaption>Same girl, different chapter.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline-section section-dark">
+      <div class="section-heading section-heading--light reveal">
+        <p class="eyebrow">03 / THE STORY SO FAR</p>
+        <h2>growing, glowing,<br><em>and turning seventeen</em></h2>
+      </div>
+
+    </section>
+
+    <!-- Personal message -->
+    <section class="message section-light">
+      <div class="letter reveal">
+        <div class="letter__mark">✦</div>
+        <p class="eyebrow">04 / A LITTLE MESSAGE</p>
+        <h2>Dear my best friends</h2>
+        <p>Every year brings new memories and new stories. This time, I'd love to celebrate another chapter together with you.</p>
+        <p>Thank you for being part of my story.</p>
+        <p class="signature">— Safira Feronika Putri</p>
+      </div>
+    </section>
+
+    <!-- Countdown -->
+    <section class="countdown section-dark">
+      <div class="section-heading section-heading--light reveal">
+        <p class="eyebrow">05 / THE WAIT</p>
+        <h2>Counting down<br><em>to turning seventeen.</em></h2>
+      </div>
+
+      <div class="countdown-grid reveal" id="countdown">
+        <div class="countdown-unit"><strong id="days">01</strong><span>Days</span></div>
+        <div class="countdown-unit"><strong id="hours">00</strong><span>Hours</span></div>
+        <div class="countdown-unit"><strong id="minutes">00</strong><span>Minutes</span></div>
+        <div class="countdown-unit"><strong id="seconds">00</strong><span>Seconds</span></div>
+      </div>
+      <p class="countdown-done hidden" id="countdownDone">The day is here.</p>
+    </section>
+
+    <!-- Surprise -->
+    <section class="surprise section-light">
+      <div class="surprise__content reveal">
+        <p class="eyebrow">A LITTLE SURPRISE</p>
+        <h2>Don't open yet...</h2>
+        <button class="surprise-card" id="surpriseCard" type="button" aria-label="Buka kejutan">
+          <span class="surprise-card__front">OPEN</span>
+          <span class="surprise-card__back">You made this chapter special.</span>
+        </button>
+      </div>
+      <div class="particles" id="particles" aria-hidden="true"></div>
+    </section>
+
+    <!-- Details -->
+    <section class="details section-light" id="details">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 / THE CELEBRATION</p>
+        <h2>Save the<br><em>date.</em></h2>
+      </div>
+
+      <div class="details-grid">
+        <article class="detail reveal"><span class="detail__icon">01</span><span class="detail__label">Date</span><strong>12 September 2026</strong></article>
+        <article class="detail reveal"><span class="detail__icon">02</span><span class="detail__label">Time</span><strong>16:00 WIB</strong></article>
+        <article class="detail reveal"><span class="detail__icon">03</span><span class="detail__label">Location</span><strong>At Safira Home  </strong></article>
+      </div>
+
+      <div class="location-card reveal">
+        <div>
+          <p class="eyebrow">EVENT PLACE</p>
+          <h3>📍 safir home</h3>
+        </div>
+        <a class="btn btn--maroon" href="https://maps.app.goo.gl/HJ9wFHW5VkFum6gn7?g_st=aw" target="_blank" rel="noopener noreferrer">View Map</a>
+      </div>
+    </section>
+
+    <!-- Dress code -->
+    <section class="dress section-dark">
+      <p class="eyebrow reveal">A NOTE ON ATTIRE</p>
+      <h2 class="reveal">Dress Code</h2>
+      <div class="swatches reveal">
+    <div>
+        <span class="swatch swatch--vanilla"></span>
+        <small>Vanilla Cream</small></div>
+
+    <div>
+        <span class="swatch swatch--blush"></span>
+        <small>Blush Petal</small></div>
+
+    <div>
+        <span class="swatch swatch--white"></span>
+        <small>White</small></div>
+</div>
+      <p class="dress__text reveal">Come dressed in the colors of the celebration.</p>
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp section-light" id="Love">
+      <div class="rsvp__intro reveal">
+        <p class="eyebrow">Love</p>
+        <h2>Will you<br><em>join me?</em></h2>
+        <p>Your response helps make this little celebration complete.</p>
+      </div>
+
+      <form class="rsvp-form reveal" id="rsvpForm" novalidate>
+        <label for="guestName">Your Name</label>
+        <input id="guestName" name="name" type="text" autocomplete="name" placeholder="Type your name" required>
+
+        <fieldset>
+          <legend>Will you come?</legend>
+          <label class="radio-option"><input type="radio" name="attendance" value="yes" required><span>Yes, I'll be there</span></label>
+          <label class="radio-option"><input type="radio" name="attendance" value="no"><span>Sorry, I can't</span></label>
+        </fieldset>
+
+        <button class="btn btn--maroon" type="submit">Send Love</button>
+        <p class="form-message hidden" id="formMessage"></p>
+      </form>
+    </section>
+
+    <!-- Final photo -->
+    <section class="final-photo section-dark">
+      <div class="final-photo__words" aria-hidden="true">ANOTHER<br>CHAPTER<br>BEGINS</div>
+      <div class="final-photo__image reveal-scale">
+    <img src="assets/images/FINAL.jpeg" alt="Safira Feronika Putri">
+</div>
+      </div>
+      <h2 class="reveal">Safira Feronika Putri</h2>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p class="eyebrow">A SPECIAL CHAPTER</p>
+      <h2>Dear my best friends</h2>
+      <p>Thank you for being part of my story. <span aria-hidden="true">♡</span></p>
+      <small>© 2026 Safira Feronika Putri</small>
+      <small>Made with ♡ &amp; code</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
